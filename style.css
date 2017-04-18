@@ -1,0 +1,134 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(74, 14, 54);
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-image: url('watercolor-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.everything-but-the-header-and-footer {
+  padding: 90px;
+}
+
+section {
+  margin: 0 auto;
+  width: 1000px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+a:hover {
+  color: green;
+}
+
+a:link {
+  color: white;
+}
+
+.name {
+  font-size: 80px;
+  text-align: center;
+  padding: 10px;
+  width: 1000px;
+  color: purple;
+}
+
+.pp {
+  padding: 30px;
+}
+
+.mmi {
+  padding: 30px;
+}
+
+.skills-description {
+  display: flex;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.dates-location {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 15px;
+  padding: 15px;
+  max-width: inherit;
+  background: rgba(61, 59, 61, 0.72);
+  text-align: center;
+}
+
+.footer-icons {
+  display: inline-block;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: rgba(64, 21, 91, 0.68);
+  text-align: center;
+  height: 75px;
+}
+
+.nav-ul {
+  list-style: none;
+}
+
+.nav-li {
+  display: inline;
+}
+
+.nav-ul a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-ul a:hover {
+  color: pink;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  background-color: rgba(64, 21, 91, 0.8);
+  width: 150px;
+  height: 100px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+
+.flex-item a {
+  color: white;
+}
+
+.flex-item a:hover {
+  color: yellow;
+}
+
+.completed-sites-from-school {
+  text-align: center;
+}
