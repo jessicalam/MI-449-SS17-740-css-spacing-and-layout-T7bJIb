@@ -27,11 +27,11 @@ section {
   background: rgba(255, 255, 255, 0.8);
 }
 
-a:hover {
+section a:hover {
   color: green;
 }
 
-a:link {
+section a:link {
   color: white;
 }
 
@@ -67,10 +67,12 @@ footer {
   max-width: inherit;
   background: rgba(61, 59, 61, 0.72);
   text-align: center;
+  color: white;
 }
 
-.footer-icons {
+.icon-in-footer {
   display: inline-block;
+  color: white;
 }
 
 header {
@@ -114,11 +116,12 @@ header {
 .flex-item {
   background-color: rgba(64, 21, 91, 0.8);
   width: 150px;
-  height: 100px;
   padding: 15px;
   margin: 10px;
   text-align: center;
   color: white;
+  align-content: center;
+  flex-flow: row wrap;
 }
 
 .flex-item a {
@@ -130,5 +133,11 @@ header {
 }
 
 .completed-sites-from-school {
+  padding: 20px;
+  text-align: center;
+}
+
+.completed-sites-from-school {
+  padding-top: 30px;
   text-align: center;
 }
